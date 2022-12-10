@@ -1,0 +1,33 @@
+{
+    "name": "nicholasricci/anpr-istat-registry",
+    "description": "A registry that contains common information from ANPR and ISTAT registries.",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "ext-zip": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nicholasricci\\AnprIstatRegistry\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nicholasricci\\AnprIstatRegistry\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicholas Ricci",
+            "email": "nicholas.ricci.92@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "platform": {
+            "php": ">=8.0"
+        }
+    }
+}
