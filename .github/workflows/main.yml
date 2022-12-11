@@ -1,9 +1,8 @@
 name: Create New JSON Release
 
 on:
-  push:
-    tags:
-      - '*'
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
